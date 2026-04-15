@@ -110,7 +110,7 @@ footer{
 }
 
 @media (max-width: 600px) {
-    nav ul {
+    nav {
         flex-direction: column;
         gap: 10px;
     }
