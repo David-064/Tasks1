@@ -111,9 +111,9 @@ footer{
     
     /* 1. جعل القائمة رأسية بدل أفقية عشان الكلام ميداخلش */
     #link {
-        flex-direction: row; 
-        gap: 10px;
-        padding: 10px 0;
+        font-weight:bold;
+    padding: 8px 16px;
+    border-radius: 5px;
     }
 
     /* 2. تصغير حجم العناوين شوية عشان تناسب الشاشة */
