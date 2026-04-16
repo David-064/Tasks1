@@ -108,8 +108,7 @@ footer{
     text-align: center;
     padding: 30px;
 }
-/* التعديلات الخاصة بالموبايل فقط */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     
     nav {
         flex-direction: column; 
