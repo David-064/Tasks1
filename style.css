@@ -111,7 +111,7 @@ footer{
 /* التعديلات الخاصة بالموبايل فقط */
 @media (max-width: 600px) {
     
-    nav a {
+    nav {
         flex-direction: column; 
         gap: 15px;
         padding: 10px 0;
