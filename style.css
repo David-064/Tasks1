@@ -131,7 +131,7 @@ footer{
     }
 
     /* 4. التأكد أن النصوص لا تخرج عن الحواف */
-    p , pre{
+    p{
         font-size: 14px;
         line-height: 1.6;
     }
