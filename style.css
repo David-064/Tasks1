@@ -110,7 +110,7 @@ footer{
 @media (max-width: 600px) {
     
     /* 1. جعل القائمة رأسية بدل أفقية عشان الكلام ميداخلش */
-    nav {
+    #link {
         flex-direction: column; 
         gap: 15px;
         padding: 10px 0;
