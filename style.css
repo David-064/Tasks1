@@ -109,12 +109,29 @@ footer{
     padding: 30px;
 }
 @media (max-width: 600px) {
-    nav {
+    html {
+        font-size: 50%;
+    }
+nav {
         flex-direction: column;
         gap: 10px;
     }
-    
+     main,
+    .buttons {
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 1.4rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
     section {
         padding: 20px;
     }
 }
+
+   
