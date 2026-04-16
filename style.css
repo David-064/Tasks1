@@ -108,9 +108,9 @@ footer{
     text-align: center;
     padding: 30px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     html {
-        font-size: 100%;
+        font-size: 50%;
     }
 
     nav {
