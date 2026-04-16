@@ -108,7 +108,7 @@ footer{
     text-align: center;
     padding: 30px;
 }
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     html {
         font-size: 50%;
     }
