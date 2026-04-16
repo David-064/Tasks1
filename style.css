@@ -108,29 +108,30 @@ footer{
     text-align: center;
     padding: 30px;
 }
-@media (min-width: 480px) {
-    html {
-        font-size: 50%;
+/* التعديلات الخاصة بالموبايل فقط */
+@media (max-width: 600px) {
+    
+    nav {
+        flex-direction: column; 
+        gap: 15px;
+        padding: 10px 0;
     }
-nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-     main,
-    .buttons {
-        flex-direction: column;
-    }
-
-    table {
-        font-size: 1.4rem;
+    
+    header h1 {
+        font-size: 1.5rem;
     }
 
-    form {
-        width: 100%;
+    main {
+        padding: 15px;
     }
 
     section {
-        padding: 20px;
+        padding: 20px 10px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
     }
 }
 
