@@ -108,30 +108,25 @@ footer{
     text-align: center;
     padding: 30px;
 }
-@media (max-width: 400px) {
-    
+@media (max-width: 600px) {
+    /* 1. جعل روابط التنقل تحت بعضها */
     nav {
         flex-direction: column; 
-        gap: 15px;
-        padding: 10px 0;
-    }
-    
-    header h1 {
-        font-size: 1.5rem;
+        align-items: center;
     }
 
-    main {
-        padding: 15px;
-    }
-
+    /* 2. تصليح المربع اللي فيه النص (Section) */
     section {
-        padding: 20px 10px;
+        width: 95%;      /* يفرش بعرض الشاشة */
+        margin: 20px auto; /* يتوسط في نص الصفحة */
+        display: block;  /* يتصرف ككتلة مستقلة */
+        padding: 20px;   /* مسافة جوه المربع عشان الكلام ميبقاش لازق في الحيطة */
+        box-sizing: border-box; /* عشان الـ padding ميوسعش المربع بره الشاشة */
     }
 
-    p {
-        font-size: 14px;
-        line-height: 1.6;
+    /* 3. تصغير العناوين عشان متخرجش بره المربع */
+    section h2 {
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
-
-   
