@@ -135,7 +135,10 @@ nav a {
     section {
         padding: 20px 10px;
     }
-
+table{
+        display: block;
+        width: 100%;
+    }
     p{
         font-size: 14px;
         line-height: 1.6;
