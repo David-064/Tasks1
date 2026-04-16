@@ -18,6 +18,20 @@ header h1 {
   margin-bottom: 20px;
   text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: center; /* توسيط الروابط */
+    flex-wrap: wrap;       /* لو الشاشة صغرت الروابط تنزل سطر جديد */
+    gap: 15px;             /* مسافة بين كل رابط والثاني */
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
 nav{
     padding: 20px;
     list-style: none;
